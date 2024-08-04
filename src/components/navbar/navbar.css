@@ -1,0 +1,53 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    background-color: brown;
+    cursor: pointer;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    margin-left: 90px;
+}
+
+.header-left nav {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.44px;
+    text-align: center;
+    color: rgba(46, 38, 111, 1);
+}
+
+.header-left nav:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.header-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    margin-right: 90px;
+}
+
+.login-button {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.83px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background: none;
+    border: none;
+}
